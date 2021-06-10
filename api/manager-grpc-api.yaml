@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: manager-http-api
+  description: HTTP API for Manager service
+spec:
+  type: grpc
+  lifecycle: production
+  owner: dev-team
+  system: serving
+  definition:
+    $text: https://github.com/Hydrospheredata/hydro-serving-protos/blob/master/src/hydro_serving_grpc/serving/manager/api.proto

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: manager
+  description: Manages model builds and deployment
+spec:
+  type: service
+  lifecycle: production
+  owner: dev-team
+  system: model-management
+  providesApis:
+    - manager-http-api
+    - manager-grpc-api

@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: org-data
+spec:
+  targets:
+    - ./api/manager-grpc-api.yaml
+    - ./api/manager-http-api.yaml
+    - ./components/manager.yaml
+    - ./groups/dev-team.yaml
+    - ./groups/devops-team.yaml
+    - ./systems/serving.yaml
+    - ./users/blutfullin.yaml
+    - ./users/dkharlamov.yaml

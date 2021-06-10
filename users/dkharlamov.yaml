@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: dkharlamov
+spec:
+  profile:
+    displayName: Dmitry Kharlamov
+    email: dkharlamov@provectus.com
+  memberOf: [devops-team]

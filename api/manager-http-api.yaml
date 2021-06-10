@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: manager-http-api
+  description: HTTP API for Manager service
+spec:
+  type: openapi
+  lifecycle: production
+  owner: dev-team
+  system: serving
+  definition: 
+    $text: https://github.com/Hydrospheredata/hydro-serving-manager/blob/master/src/main/resources/swagger.json

@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: blutfullin
+spec:
+  profile:
+    displayName: Bulat Lutfullin
+    email: blutfullin@provectus.com
+  memberOf: [dev-team]

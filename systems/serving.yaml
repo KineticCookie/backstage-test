@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: model-management
+  description: Services for model management
+spec:
+  owner: dev-team
+  domain: artists
